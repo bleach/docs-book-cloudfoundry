@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '~> 2.4.0'
+ruby '~> 2.3.3'
+
 gem 'therubyracer'
 gem 'bookbindery', "9.12.0"
