@@ -1,7 +1,6 @@
 ---
 applications:
 - name: cf-docs
-  buildpack: ruby_buildpack
   host: cf-docs-user-research
   instances: 3
   memory: 256M

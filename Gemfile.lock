@@ -1,9 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (4.2.7.1)
+    activesupport (4.2.8)
       i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
@@ -51,26 +50,26 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
-    css_parser (1.4.7)
+    css_parser (1.4.10)
       addressable
-    elasticsearch (5.0.1)
-      elasticsearch-api (= 5.0.1)
-      elasticsearch-transport (= 5.0.1)
-    elasticsearch-api (5.0.1)
+    elasticsearch (5.0.3)
+      elasticsearch-api (= 5.0.3)
+      elasticsearch-transport (= 5.0.3)
+    elasticsearch-api (5.0.3)
       multi_json
-    elasticsearch-transport (5.0.1)
+    elasticsearch-transport (5.0.3)
       faraday
       multi_json
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.2.1)
-    excon (0.54.0)
+    eventmachine (1.2.3)
+    excon (0.55.0)
     execjs (2.7.0)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.17)
+    ffi (1.9.18)
     fog-aws (0.7.6)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
@@ -98,9 +97,9 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     ipaddress (0.8.3)
-    json (1.8.6)
+    json (2.0.3)
     kramdown (1.13.2)
-    libv8 (3.16.14.17)
+    libv8 (3.16.14.19)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -155,7 +154,7 @@ GEM
     padrino-support (0.12.8.1)
       activesupport (>= 3.1)
     public_suffix (2.0.5)
-    puma (3.6.2)
+    puma (3.8.2)
     rack (1.6.5)
     rack-livereload (0.3.16)
       rack
@@ -183,7 +182,7 @@ GEM
       libv8 (~> 3.16.14.15)
       ref
     thor (0.19.4)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -202,4 +201,4 @@ DEPENDENCIES
   therubyracer
 
 BUNDLED WITH
-   1.14.3
+   1.13.6
