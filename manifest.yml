@@ -1,9 +1,8 @@
 ---
 applications:
-- name: docs-oss
+- name: cf-docs
   buildpack: ruby_buildpack
-  domain: cfapps.io
-  host: tasks-review-oss
+  host: cf-docs-user-research
   instances: 3
   memory: 256M
   path: final_app
